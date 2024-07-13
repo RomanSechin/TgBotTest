@@ -7,7 +7,7 @@ using TgBotTest;
 
 Console.WriteLine("Hello, World!");
 
-const string token = "7125413978:AAEECZ-MQrdGWF8txh7EsLUr6jYo-u-73jw";
+const string token = "";
 
 // if (token is null) throw new Exception("Bot client token not found");
 
