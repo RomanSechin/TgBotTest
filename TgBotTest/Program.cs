@@ -6,7 +6,6 @@ using Telegram.Bot.Types.Enums;
 using TgBotTest;
 
 Console.WriteLine("Hello, World!");
-
 const string token = "";
 
 // if (token is null) throw new Exception("Bot client token not found");
@@ -14,7 +13,7 @@ const string token = "";
 var botClient = new TelegramBotClient(token);
 ReceiverOptions receiverOptions = new()
 {
-    AllowedUpdates = new[]
+  AllowedUpdates = new[]
     {
         UpdateType.Message
     }, // receive all update types except ChatMember related updates
