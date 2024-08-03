@@ -14,8 +14,7 @@ public class TelegramUpdateHandler : IUpdateHandler
     string msg = update.Message.Text;
     string reply = "";
     ExpressionCalculator expressionCalculator = new ExpressionCalculator(msg);
-    if (expressionCalculator.isValidExpression())
-    //if(true)
+    if (expressionCalculator.isValidExpression())    
     {
       reply += expressionCalculator.CalculateExpression().ToString();
     }
