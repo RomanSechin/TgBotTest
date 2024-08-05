@@ -6,7 +6,7 @@ using Telegram.Bot.Types.Enums;
 using TgBotTest;
 
 Console.WriteLine("Hello, World!");
-const string token = "";
+const string token = "7263037679:AAGbgjpszD1cJo0SuWsCG5g-KMfCdc8WRKg";
 
 // if (token is null) throw new Exception("Bot client token not found");
 
